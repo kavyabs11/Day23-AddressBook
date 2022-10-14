@@ -37,6 +37,7 @@ namespace AddressBook
         {
             foreach (var data in add_book)
             {
+                Console.WriteLine("Contacts stored_________");
                 Console.WriteLine($"Contacts No. - {data}");
                 Console.WriteLine($"Name - {data.first_name} {data.s_name}");
                 Console.WriteLine($"Address - {data.address}");
@@ -44,7 +45,7 @@ namespace AddressBook
                 Console.WriteLine($"State - {data.state}");
                 Console.WriteLine($"Zip - {data.zip}");
                 Console.WriteLine($"Phone no. - {data.phone_no}");
-                Console.WriteLine($"Email - {data.email}");
+                Console.WriteLine($"Email - {data.email}\n");
             }
         }
     }
